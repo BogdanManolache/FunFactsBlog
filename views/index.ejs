@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head.ejs') %> 
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <%- include('./partials/nav.ejs') %>
+
+        <h1 class="header__heading">Unleash your inner curiosity!</h1>
+        <img src="/img/hero.svg" alt="An illustration with a teacher" class="hero__img" />
+      </header>
+      <main class="facts">
+        <h2>Our latest fun facts...</h2>
+
+        <ul class="facts__list">
+          <% if (facts.length > 0 ) { %> <% facts.forEach(fact => { %>
+          <li class="facts__item">
+            <a href=<%=`/facts/${fact.id}`%>><p><%= fact.title %> (posted on <%= fact.date %>)</p></a>
+          </li>
+          <% }) %> <% } %> <% if (facts.length === 0) { %>
+          <p>We have no facts to show. Write one yourself!</p>
+          <% } %>
+
+          <!-- <li class="facts__item">
+            <a href="/facts/:factID"
+              ><p>Banging your head against a wall for one hour burns 150 calories.</p></a
+            >
+          </li> -->
+        </ul>
+
+        <a href="/facts" class="btn btn--all">View all</a>
+      </main>
+      <%- include('./partials/footer.ejs') %>
+    </div>
+  </body>
+</html>

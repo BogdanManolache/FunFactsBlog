@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Banging your head against a wall for one hour burns 150 calories",
+    "description": "If you're not keen on losing brain cells, you might want to give this calorie-burning idea a miss.A safer way to burn 150 calories would be to take your dog for a walk for 45 minutes.",
+    "category": "Health",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 2,
+    "title": "Snakes can predict earthquakes",
+    "description": "Many animals are able to predict earthquakes to varying levels of success. Yet, snakes are the most reliable, sensing earthquakes from as far as 75 miles away (121 km). They can even sense an earthquake five days before it actually occurs! When snakes sense an earthquake, they often leave their nests, even if the temperature is too cold.",
+    "category": "Animals",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 3,
+    "title": "Crows often hold grudges against specific people",
+    "description": "Crows are excellent at recognizing people's faces and are able to remember people for a long time! This can be either a negative or positive fact, depending on how nice you are to them. While crows can tell us apart, we would find it difficult to distinguish one crow from another.",
+    "category": "Animals",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 4,
+    "title": "In Uganda, around 48% of the population is under 15 years of age",
+    "description": "Uganda has a total population of 44.3 million. This means that there are around 20 million people under the age of 15 living there.In total, 77% of the population is under the age of 30. One of the reasons this number is so high is that the population is rapidly expanding. There were just 5 million people in Uganda in 1950.",
+    "category": "Geography",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 5,
+    "title": "The Battle of Hastings didn't actually take place in Hastings",
+    "description": "In 1066, the Battle of Hastings was fought between the English forces under King Harold Godwinson and the Norman and French troops under William the Conqueror. The battle is commonly known today as the deciding point in the Norman Conquest of England. Despite the name, the actual battle took place 7 miles (11 km) away from Hastings, in a town now known as Battle.",
+    "category": "History",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 6,
+    "title": "Bob Dylan's birth name was Robert Zimmerman",
+    "description": "When Bob Dylan was fresh out of high school, he chose the stage name Elston Gunn, but this didn't stick for long. For a while, he went by his first and middle name, Robert Allen, but that didn't feel right either. Eventually, he came upon the name Bob Dylan and officially changed his name to this on August 2, 1962. Nobody knows why he chose this name, but many people, including Dylan himself, have told different stories over the years.",
+    "category": "Entertainment",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 7,
+    "title": "HP's name was determined by a coin toss in 1939",
+    "description": "Bill Hewlett and Dave Packard, who met while studying Engineering, founded the company in a small garage. To choose the name, they combined their surnames with a hyphen.They flipped a coin to decide the order, and although Dave Packard won, they went with Hewlett-Packard because they liked how it sounded.",
+    "category": "Technology",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 8,
+    "title": "Mike Tyson once offered a zoo attendant $10,000 to let him fight a gorilla",
+    "description": "Back in the 90s, Mike Tyson was a true force to be reckoned with. Tyson had already bribed a zoo attendant to open the zoo just for himself and his then-wife, Robin Givens. It was during this visit that he made his outlandish request. He demanded the attendant “to open the cage and let me smash that silverback's snot box.” Fortunately for everyone involved, the zoo attendant declined his request.",
+    "category": "Sport",
+    "date": "18/10/2023"
+  },
+  {
+    "id": 9,
+    "title": "Nutella was invented shortly after WWII ended because chocolate was so expensive",
+    "description": "The availability of chocolate was low around this time because most of the world's armies issued rations of chocolate to their soldiers. The lack of supply led many to try creative new approaches. In 1946 Pietro Ferrero created a spread made of tiny amounts of chocolate and plenty of inexpensive hazelnuts. Although it wasn't a new idea, his formula was, making it much more affordable to regular folk! Ferrero's son created the final Nutella product and perfected the formula in 1964.",
+    "category": "Food",
+    "date": "18/10/2023"
+  }
+]

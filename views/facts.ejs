@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head.ejs') %>
+    <script defer src="/js/facts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <%- include('./partials/nav.ejs') %>
+      <main class="facts">
+        <h2>Fun Facts List</h2>
+        
+        <ul class="facts__categories">
+          <li class="category active">
+            <!-- <button class="edit">
+              <ion-icon name="brush-outline" class="icon"></ion-icon>
+            </button> -->
+            <span class="category__name">All</span>
+            <!-- <button class="delete">
+              <ion-icon name="trash-outline" class="icon"></ion-icon>
+            </button> -->
+          </li>
+
+          <% categories.forEach(category => { %>
+            <li class="category">
+              <button class="edit">
+                <ion-icon name="brush-outline" class="icon"></ion-icon>
+              </button>
+              <span class="category__name"><%= category %></span>
+              <button class="delete">
+                <ion-icon name="trash-outline" class="icon"></ion-icon>
+              </button>
+            </li>
+          <% }) %>
+          
+        </ul>
+        <img src="/img/facts.svg" alt="Illustration with a reading a book" class="facts__img" />
+        <ul class="facts__list ">
+          <% if (facts.length > 0 ) { %> 
+            <% facts.forEach(fact => { %>
+              <li class="facts__item">
+               <a href=<%=`/facts/${fact.id}`%>><p><%= fact.title %> (posted on <%= fact.date %>)</p></a>
+              </li>
+            <% }) %>
+          <% } %> 
+            <% if (facts.length === 0) { %>
+              <p>We have no facts to show. Write one yourself!</p>
+            <% } %>
+        </ul>
+      </main>
+      <%- include('./partials/footer.ejs') %>
+    </div>
+    <!-- OVERLAY -->
+    <div class="overlay hidden"></div>
+    <!-- EDIT MODAL -->
+    <div class="modal modal__edit hidden">
+      <button class="btn--close-modal btn--close-edit">&times;</button>
+      <h2 class="modal__header">Enter a new name:</h2>
+      <form class="modal__form modal__form--edit">
+        <input type="text" class="modal__input" name="newCategory"/>
+        <button class="btn btn--submit btn__edit-category">Submit</button>
+      </form>
+    </div>
+    <%- include('./partials/modalDelete.ejs') %>
+    <!--  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head.ejs') %>
+  </head>
+  <body>
+    <div class="container">
+      <% if (errorMsg !== "Something went wrong...") { %>
+      <a href="/" class="btn btn--back">&larr; Go to home page</a>
+      <% } %>
+      <h1 class="error__heading"><%= errorMsg %></h1>
+      <% if (errorMsg === "Something went wrong...") { %>
+      <p>Please try again later.</p>
+      <% } %> <%- include('./partials/footer.ejs') %>
+    </div>
+  </body>
+</html>

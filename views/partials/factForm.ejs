@@ -1,0 +1,12 @@
+<form action="/facts" class="fact__form" method="POST">
+  <label for="fact__title">Title:</label>
+  <input type="text" id="fact__title" name="title" required />
+
+  <label for="fact__category">Category:</label>
+  <input type="text" id="fact__category" name="category" required />
+
+  <label for="fact__description">Description:</label>
+  <textarea name="description" id="fact__description" cols="30" rows="10" required></textarea>
+
+  <button type="submit" class="btn btn--submit btn__edit">Add fact</button>
+</form>
