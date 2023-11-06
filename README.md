@@ -6,10 +6,18 @@ This is my first full-stack project: a fun facts blog.
 
 This little blog was built with Node,Express, MongoDB and Mongoose on the backend and with a little splash of Vanilla JS on the frontend.
 
-### Features
+## Features and requirements
 
-You can read fun facts and you can add a new fact.
-You can edit and delete a fact, and you can also filter facts by category, edit a category name or delete a whole category of facts.
+- [x] On the homepage you can see the 3 most recent facts
+- [x] All the facts are displayed on a separate page
+- [x] Add a new fact
+- [x] Edit / Delete a fact
+- [x] Filter by category
+- [ ] Add a new category
+- [x] Edit the name of a category
+- [x] Delete a category
+
+I made it so that the only way to add a category would be if you write a new fun fact and contribute to the page :)
 
 ## Running the project
 
