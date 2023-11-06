@@ -87,7 +87,7 @@ formDelete.addEventListener('submit', async e => {
   e.preventDefault();
 
   try {
-    const res = await fetch(`/facts/${factId}sss`, {
+    const res = await fetch(`/facts/${factId}`, {
       method: 'DELETE',
     });
 
