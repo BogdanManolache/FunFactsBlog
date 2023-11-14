@@ -101,6 +101,7 @@ factsCategoriesElement.addEventListener('click', e => {
         factsList.remove();
         // Add the new list
         factsContainer.appendChild(newFactsList);
+        newFactsList.scrollIntoView();
         // Update so that the current list is the new one
         factsList = newFactsList;
       } catch (err) {
