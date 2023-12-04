@@ -50,7 +50,7 @@ app.use((err, req, res, next) => {
 
 // Start server and connect to db
 const PORT = process.env.PORT || 3000;
-// const MONGO_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_CLUSTER}.9ksy5yf.mongodb.net/funfacts?retryWrites=true&w=majority`;
+const MONGO_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_CLUSTER}.9ksy5yf.mongodb.net/funfacts?retryWrites=true&w=majority`;
 
 app.listen(PORT, async () => {
   console.log(`Server is listening on port ${PORT}...`);
