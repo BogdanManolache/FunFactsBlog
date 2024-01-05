@@ -26,4 +26,4 @@ I made it so that the only way to add a category would be if you write a new fun
 
 ## Deployment
 
-funfactsblog.onrender.com/
+https://funfactsblog.onrender.com/
